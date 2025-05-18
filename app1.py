@@ -11,8 +11,8 @@ import os
 os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 
 # Load and extract text from PDF
-def extract_text_from_pdf(uploaded_file):
-    pdf_reader = PdfReader(uploaded_file)
+def extract_text_from_pdf(https://arxiv.org/pdf/2505.06633):
+    pdf_reader = PdfReader(https://arxiv.org/pdf/2505.06633)
     text = ""
     for page in pdf_reader.pages:
         text += page.extract_text()
